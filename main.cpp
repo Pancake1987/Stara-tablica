@@ -67,13 +67,11 @@ float mediana(int numer[]) {
 
 
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 int main() {
     int numbers[SIZE]= {1 ,2 ,3 ,4 ,5 ,6 ,7 ,8, 9, 10};
     int option = 0;
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
+    
     do {
         Menu();
         printf(" Wybierz opcje:");
@@ -117,7 +115,3 @@ while (option !=0);
     return 0;
 }
 
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
